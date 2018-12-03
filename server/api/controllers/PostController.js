@@ -55,7 +55,8 @@ module.exports = {
                     description
                 })
                 .skip(offset)
-                .limit(size);
+                .limit(size)
+                .sort('id DESC');
             return res.json(Utilities.processResponse({posts, page, size}));
         } catch (err){
             const error = Utilities.processModelError(err);
