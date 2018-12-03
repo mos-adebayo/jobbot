@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #e0e0e0;
+
+}
+
+.layout-content{
+  margin-top: 25px;
+  min-height: 100vh;
+}
+.card-footer-text{
+  color: #5a5a5a;
+}
+.post-item-content{
+  background: #ffffff;
+  height: 100vh;
+}
+.text-white{
+  color:#ffffff;
+}
+.page-loader-wrapper{
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  text-align: center;
+}
+.text-capitalize{
+  text-transform: capitalize;
+}
+.float-button{
+  position: absolute;
+  bottom: 50px;
+  right: 25px;
+}
+.text-capitalize-first:first-letter{
+  text-transform: uppercase;
+}
