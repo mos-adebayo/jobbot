@@ -82,7 +82,7 @@ This are the available endpoints at the backend:
 ## Usage
 To run this project follow these steps:
 
-Run `cd frontend`
+Run `cd client`
 
 Run `npm i`  or `yarn` to install all the dependencies
 
